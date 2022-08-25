@@ -33,3 +33,5 @@ if ! minikube ip > /dev/null 2>&1; then
   exit 0
 fi
 
+echo "Minikube is already running"
+exit 0
